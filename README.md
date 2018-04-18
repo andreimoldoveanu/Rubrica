@@ -1,4 +1,4 @@
-Più dettagli per l'installazione li trovate nella Wiki
+Più dettagli per l'installazione li trovate nella [Wiki]
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -62,3 +62,5 @@ Chi terminasse rapidamente il progetto, e fosse interessato ad aggiungere funzio
 3)	Aggiungere una barra degli strumenti (JToolbar) in ogni finestra, e caricare i bottoni all’interno della barra, piuttosto che visualizzarli in basso. E’ possibile anche caricare delle piccole immagini nei bottoni della toolbar per abbellirne l’aspetto.
 4)	Caricare il codice sorgente del programma su “sistemi di versioning online” come GitHub o BitBucket. Questo permetterebbe di rendere pubblico il proprio codice (chiunque potrà leggerlo e usarlo). Sarebbe uno sviluppo di un progetto open-source ed è possibile condividerlo anche con altri sviluppatori.
 5)	Salvataggio dati su database. Volendo sostituire lo strato di classi per la persistenza, in modo che non salvino su file ma su database, è possibile installare il software per la gestione di database gratuito e open-source MySql. Dopo averlo installato si dovrà creare un database e delle tabelle, una per gestire le persone e una per gestire gli utenti. Dopo si dovrà sfruttare le classi e le interfacce della sezione JDBC (che fanno parte della struttura di classi di java base) per accedere al db mysql dal nostro software e memorizzare i dati nel db. Per sfruttare JDBC e collegarsi a MySQL, sarà necessario scaricare una piccola libreria java in formato .jar chiamata connector/J di MySQL. Questa libreria dovrà essere aggiunta alle librerie-dipendenze del nostro progetto in eclipse.
+
+[Wiki]: https://github.com/andreimoldoveanu/Rubrica/wiki
